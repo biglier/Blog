@@ -1,0 +1,19 @@
+<!--
+/**
+ * slavik_blog_article_edit.xml
+ *
+ * @category  Slavik\Blog\view\adminhtml\layout;
+ * @package   Slavik\Blog
+ * @author    Stanislav Lelyuk <lelyuk.stanislav@gmail.com
+ * @copyright 2019 Stanislav Lelyuk
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="styles"/>
+    <body>
+        <referenceContainer name="content">
+            <uiComponent name="slavik_blog_article_form"/>
+        </referenceContainer>
+    </body>
+</page>
